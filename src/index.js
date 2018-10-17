@@ -45,4 +45,8 @@ document.getElementById("cislo").innerHTML = document.getElementById("cislo").in
 ) {
   return +x - 3;
 }
-alert(OdectiTri);
+alert(OdectiTri(5));
+
+for (var i = 0; i < 5; i++) {
+  alert(OdectiTri(i));
+}
